@@ -45,15 +45,38 @@ export default function HomePage() {
             </div>
           </div>
           <div className="phone" aria-hidden="true">
+            <span className="btn-side btn-action" />
+            <span className="btn-side btn-vol-up" />
+            <span className="btn-side btn-vol-down" />
+            <span className="btn-side btn-power" />
             <div className="screen">
+              <div className="island" />
+              <div className="status">
+                <span>12:00 PM</span>
+                <span className="status-icons">
+                  <svg width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" /><rect x="4.5" y="5" width="3" height="6" rx="1" /><rect x="9" y="2.5" width="3" height="8.5" rx="1" /><rect x="13.5" y="0" width="3" height="11" rx="1" /></svg>
+                  <svg width="15" height="11" viewBox="0 0 15 11"><path d="M7.5 2.2c2 0 3.9.8 5.3 2.1l1.1-1.1A9 9 0 0 0 7.5.6 9 9 0 0 0 1.1 3.2l1.1 1.1A7.5 7.5 0 0 1 7.5 2.2Zm0 3.1c1.2 0 2.3.5 3.1 1.2l1.1-1.1a6 6 0 0 0-8.4 0l1.1 1.1c.8-.7 1.9-1.2 3.1-1.2Zm0 3.1-1.6 1.6L7.5 11l1.6-1.6-1.6-1Z" /></svg>
+                  <span className="battery"><span /></span>
+                </span>
+              </div>
+              <div className="app-head">
+                <span>Encaissements du jour</span>
+                <strong>Salon Amani</strong>
+              </div>
               <div className="card">
                 <div style={{ fontSize: 13, opacity: 0.9 }}>Paiement reçu</div>
                 <div className="amount">+12,00 $</div>
-                <div style={{ fontSize: 13, opacity: 0.9 }}>Salon Mama Jeanne · via Futa</div>
+                <div style={{ fontSize: 13, opacity: 0.9 }}>Salon Amani · via Futa</div>
               </div>
               <div className="row"><span>M-Pesa</span><span className="ok">+8 000 FC</span></div>
               <div className="row"><span>Orange Money</span><span className="ok">+10,00 $</span></div>
               <div className="row"><span>Airtel Money</span><span className="ok">+5,00 $</span></div>
+              <div className="total"><span>Paiements reçus aujourd’hui</span><strong>4</strong></div>
+              <div className="qr-btn">
+                <svg width="16" height="16" viewBox="0 0 16 16"><path d="M1 1h6v6H1V1Zm1.5 1.5v3h3v-3h-3ZM9 1h6v6H9V1Zm1.5 1.5v3h3v-3h-3ZM1 9h6v6H1V9Zm1.5 1.5v3h3v-3h-3ZM9 9h2v2H9V9Zm2 2h2v2h-2v-2Zm2-2h2v2h-2V9Zm0 4h2v2h-2v-2Zm-4 0h2v2H9v-2Z" /></svg>
+                Afficher mon code QR
+              </div>
+              <div className="home-bar" />
             </div>
           </div>
         </div>
