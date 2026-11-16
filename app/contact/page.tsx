@@ -34,12 +34,12 @@ export default async function ContactPage({
           <aside style={{ flex: '1 1 260px' }} className="card-box">
             <h2 style={{ fontSize: '1.2rem' }}>Nos coordonnées</h2>
             <p>
-              215 Avenue Kabalo (croisement des avenues Kabalo et Mushie)
+              Silikin Village/Concession Cotex 63, Avenue Colonel Mondjiba
               <br />
-              Commune de Lingwala, Kinshasa
+              Commune de La Gombe, Kinshasa
             </p>
             <p style={{ marginTop: 12 }}>
-              <a href="tel:+243972027796">(+243) 972 027 796</a>
+              <a href="tel:+243830466113">(+243) 830 466 113</a>
               <br />
               <a href="mailto:info@amaniconsultinggroup.com">info@amaniconsultinggroup.com</a>
             </p>
