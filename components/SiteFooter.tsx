@@ -10,10 +10,10 @@ export function SiteFooter() {
             <p>
               Un produit d’Amani Consulting &amp; Investment.
               <br />
-              Silikin Village/Concession Cotex 63, Avenue Colonel Mondjiba, Kinshasa Commune de la Gombe, Kinshasa
+              Silikin Village/Concession Cotex 63, Avenue Colonel Mondjiba C/ Gombe, Kinshasa
             </p>
             <p>
-              <a href="tel:+243830466113">(+243) 830 466 113</a>
+              <a href="tel:+243830466113">(+243)830466113</a>
               <br />
               <a href="mailto:info@amaniconsultinggroup.com">info@amaniconsultinggroup.com</a>
             </p>
